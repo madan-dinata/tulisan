@@ -6,7 +6,7 @@
  
 3. Selanjut nya membuat ssh-key nya dengan perintah di bawah ini
 
-    ssh-keygen -t rsa -C "emailgithubkamu@mail.com" -b 4096
+        ssh-keygen -t rsa -C "emailgithubkamu@mail.com" -b 4096
 
 Setelah itu akan di minta untuk mengisi id SSH and passphrasenya. Kita bisa menulis id nya, disini saya menulis dengan huruf y. kemudian mengosongkan passphrasenya, setelah itu tekan entar
 
