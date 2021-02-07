@@ -1,3 +1,8 @@
+# Cara Membuat SSH-Key Github di Linux
+
+![Alt text](./images/ssh.png?raw=true "Title") <br>
+_images source : "https://id.pinterest.com/pin/825003225465844036/"_
+
 1. Masuk ke terminal
 2. Pastikan di komputer anda sudah ada direktori ssh, jika tidak ada kita tinggal membuat nya kemudian masuk ke direktori tersebut
 
@@ -8,7 +13,9 @@
 
         ssh-keygen -t rsa -C "emailgithubkamu@mail.com" -b 4096
 
-    Setelah itu akan di minta untuk mengisi id SSH and passphrasenya. Kita bisa menulis id nya, disini saya menulis dengan huruf y. kemudian mengosongkan             passphrasenya, setelah itu tekan entar
+    Setelah itu akan di minta untuk mengisi id SSH and passphrasenya. Kita bisa menulis id nya, disini saya menulis dengan huruf y. kemudian mengosongkan             passphrasenya. Jika sudah selesai maka tampilan akan seperti ini
+    
+    ![Alt text](./images/ssh-key-terminal.png?raw=true "Title")
 
 4. Maka sekarang di direktori ssh ada 2 file dengan nama y dan y.pub. Untuk melihat nya yaitu dengan ketikan perintah ls.
    File tanpa ekstensi adalah private key-nya dan file dengan ekstensi .pub adalah public key-nya.
